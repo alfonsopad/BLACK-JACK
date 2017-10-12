@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+
+
+int main() {
+	
+	int total =0;
+	int valor = 1 + rand()/(RAND_MAX/(max-min+1))
+	int carta =0;
+	int carta2 =0;
+	char respuesta =0;
+	
+	printf("bienvenido al juego de 21");
+	total = carta + carta2;
+	
+	printf("te gustaria otra carta?\n1 si \n2 no");
+	scanf("%i,&respuesta");
+	if respuesta = 1
+        break;
+
+	return 0;
+}
