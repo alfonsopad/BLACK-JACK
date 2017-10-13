@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+
+
+int main() {
+	srand(time(NULL));
+	int total =0;
+	int MAX = 51;
+	int min = 0;
+	int test = 0;
+	test = rand();
+	int valor = 1 + rand()/(RAND_MAX/(MAX-min+1)+1);
+	int carta =0;
+	carta = valor;
+	int carta2 =0;
+	char respuesta =0;
+	
+	printf("bienvenido al juego de 21\n");
+	total = carta + carta2;
+	
+	printf("carta : %d\n");
+	
+	printf("test : %d\n");
+	
+	printf("te gustaria otra carta?\n1 si \n2 no");
+	scanf("%i,&respuesta");
+	if (respuesta ==1 );
+	
+
+	return 0;
+}
